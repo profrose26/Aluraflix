@@ -31,9 +31,6 @@ p{
 }
 
 
-img {
-  height: 200px;
-}
 
 .categoria-videos {
 display: flex;
@@ -48,4 +45,10 @@ gap: 10px;
 
 .categoria-videos img {
 opacity: 0.5;
+height: 200px;
+}
+
+.categorai-videos img:hover {
+    opacity: 1.0;
+
 }
